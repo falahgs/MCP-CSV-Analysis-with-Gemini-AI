@@ -1,0 +1,38 @@
+{
+  "name": "mcp-csv-analysis-gemini",
+  "version": "1.0.0",
+  "description": "CSV Analysis tool using Google Gemini AI",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "discord",
+    "mcp",
+    "claude"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@modelcontextprotocol/sdk": "^1.2.0",
+    "chart.js": "^4.4.8",
+    "csv-parser": "^3.0.0",
+    "d3": "^7.8.5",
+    "dotenv": "^16.3.1",
+    "mime-types": "^2.1.35",
+    "react-chartjs-2": "^5.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41",
+    "@types/d3": "^7.4.3",
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.9.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

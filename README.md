@@ -66,8 +66,6 @@ npm install
 2. Create `.env` file:
 ```env
 GEMINI_API_KEY=your_api_key_here
-PLOTLY_USERNAME=your_plotly_username
-PLOTLY_API_KEY=your_plotly_api_key
 ```
 
 3. Build the project:

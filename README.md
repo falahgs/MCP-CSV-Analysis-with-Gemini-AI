@@ -1,4 +1,5 @@
 # MCP CSV Analysis with Gemini AI
+[![smithery badge](https://smithery.ai/badge/@falahgs/mcp-csv-analysis-with-gemini-ai)](https://smithery.ai/server/@falahgs/mcp-csv-analysis-with-gemini-ai)
 
 A powerful Model Context Protocol (MCP) server that provides advanced CSV analysis and thinking generation capabilities using Google's Gemini AI. This tool integrates seamlessly with Claude Desktop and offers sophisticated data analysis, visualization, and natural language processing features.
 
@@ -56,6 +57,15 @@ A powerful Model Context Protocol (MCP) server that provides advanced CSV analys
 
 ### Installation
 
+#### Installing via Smithery
+
+To install mcp-csv-analysis-with-gemini-ai for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@falahgs/mcp-csv-analysis-with-gemini-ai):
+
+```bash
+npx -y @smithery/cli install @falahgs/mcp-csv-analysis-with-gemini-ai --client claude
+```
+
+#### Manual Installation
 1. Clone and setup:
 ```bash
 git clone [your-repo-url]
